@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/mitchellh/packer/packer/plugin"
 
-	pbprov "github.com/cppforlife/packer-bosh/provisioner"
+	pbprov "github.com/sclevine/packer-bosh/provisioner"
 )
 
 func main() {

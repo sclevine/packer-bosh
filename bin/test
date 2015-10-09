@@ -5,11 +5,11 @@ result=0
 bin=$(cd $0/.. && pwd)
 
 echo -e "\n Formatting packages..."
-$bin/go fmt github.com/cppforlife/packer-bosh/...
+$bin/go fmt github.com/sclevine/packer-bosh/...
 let "result+=$?"
 
 echo -e "\n Vetting packages for potential issues..."
-$bin/go vet github.com/cppforlife/packer-bosh/...
+$bin/go vet github.com/sclevine/packer-bosh/...
 let "result+=$?"
 
 echo -e "\n Checking with golint..."

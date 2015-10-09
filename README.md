@@ -2,12 +2,12 @@
 
 BOSH provisioner allows to provision VM by specifying regular BOSH deployment manifest.
 
-You might also be interested in [vagrant-bosh](https://github.com/cppforlife/vagrant-bosh).
+You might also be interested in [vagrant-bosh](https://github.com/sclevine/vagrant-bosh).
 
 
 ### Usage
 
-1. Run `go get github.com/cppforlife/packer-bosh` to download `packer-bosh`. 
+1. Run `go get github.com/sclevine/packer-bosh` to download `packer-bosh`. 
   Make sure to run `git submodule update --init` from insice `packer-bosh` directory.
 
 2. Configure Packer's `$HOME/.packerconfig` to know about `packer-bosh` executable:
@@ -32,7 +32,7 @@ for more details on how to configure custom provisioners.
   "provisioners": [{
     "type": "packer-bosh",
     "manifest_path": "example-bosh-lite-manifest.yml",
-    "assets_dir": "/your-go-dir/src/github.com/cppforlife/packer-bosh/bosh-provisioner/assets",
+    "assets_dir": "/your-go-dir/src/github.com/sclevine/packer-bosh/bosh-provisioner/assets",
     "ssh_password": "ubuntu"
   }]
 }

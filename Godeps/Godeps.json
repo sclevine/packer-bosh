@@ -1,8 +1,8 @@
 {
-	"ImportPath": "github.com/cppforlife/packer-bosh",
+	"ImportPath": "github.com/sclevine/packer-bosh",
 	"GoVersion": "go1.2.2",
 	"Packages": [
-		"github.com/cppforlife/packer-bosh/..."
+		"github.com/sclevine/packer-bosh/..."
 	],
 	"Deps": [
 		{
