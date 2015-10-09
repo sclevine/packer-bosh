@@ -10,7 +10,7 @@ export GOPATH=$dev/../../../../..:$dev/../Godeps/_workspace
 cd $dev
 
 echo "Building packer-bosh executable"
-go build -o ../out/packer-bosh github.com/cppforlife/packer-bosh/main
+go build -o ../out/packer-bosh github.com/sclevine/packer-bosh/main
 
 export PACKER_CONFIG=.packerconfig
 

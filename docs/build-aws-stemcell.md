@@ -14,7 +14,7 @@ See Packer's [build an image](http://www.packer.io/intro/getting-started/build-i
 "provisioners": [{
   "type": "packer-bosh",
 
-  "assets_dir": "/your-go-dir/src/github.com/cppforlife/packer-bosh/bosh-provisioner/assets",
+  "assets_dir": "/your-go-dir/src/github.com/sclevine/packer-bosh/bosh-provisioner/assets",
 
   "full_stemcell_compatibility": true,
 
